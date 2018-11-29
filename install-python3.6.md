@@ -41,7 +41,7 @@
 3. Append the following lines to your `~/.bashrc`
 
    ```bash
-   virtualenv and virtualenvwrapper
+   # virtualenv and virtualenvwrapper
    export WORKON_HOME=$HOME/.virtualenvs
    export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3.6
    source /usr/bin/virtualenvwrapper.sh
