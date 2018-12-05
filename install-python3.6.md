@@ -30,12 +30,14 @@
 
    ```bash
    wget https://bootstrap.pypa.io/get-pip.py
+   sudo python3 get-pip.py
    ```
 
 2. Make use of virtual environments for Python development
 
    ```bash
-   sudo python3 get-pip.py
+   sudo pip install virtualenv virtualenvwrapper
+   sudo rm -rf ~/get-pip.py ~/.cache/pip
    ```
 
 3. Append the following lines to your `~/.bashrc`
